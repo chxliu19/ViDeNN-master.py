@@ -1,0 +1,13 @@
+5）、赛题五：利用Tensorflow实现ViDeNN CV类深盲视频去噪网络
+论文：
+ ViDeNN: Deep Blind Video Denoising
+Paperwithcode：
+ https://paperswithcode.com/paper/videnn-deep-blind-video-denoising
+Github：
+ https://github.com/clausmichele/ViDeNN
+数据集：
+ 训练集：WaterLoo Exploration Dataset  测试集：CBSD68
+精度基线：
+ (noise=15) PSNR:33.66
+性能基线：432s / epoch
+建议参数：train step:50 epoch BatchSize:128
